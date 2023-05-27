@@ -1,4 +1,4 @@
-# Analysis Report
+# UIEcoSense Analysis Report
 
 ## Introduction
 The purpose of this report is to present the results of a code analysis performed on the given directory. The analysis was conducted in order to identify smells in the code and to generate a report that provides useful information for improving the quality of the code.

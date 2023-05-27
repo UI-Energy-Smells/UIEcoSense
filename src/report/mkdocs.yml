@@ -1,5 +1,5 @@
 site_name: Smell Analysis Report
-site_author: Team 9
+site_author: UIEcoSense
 
 theme:
   name: material
@@ -24,11 +24,11 @@ theme:
     - navigation.footer
     - content.code.annotate
 
-copyright: Copyright &copy; 2023 Team 9
+copyright: Copyright &copy; 2023 UIEcoSense
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/UI-Energy-Smells
+      link: https://github.com/UI-Energy-Smells/UIEcoSense
       name: UI Energy Smells
 extra_css:
   - assets/stylesheets/extra.css
