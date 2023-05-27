@@ -1,5 +1,6 @@
-# UI Energy Smells
-Core module for code and non code analysis.
+# UIEcoSense
+Tool for detecting UI Energy Smells in ReactJS
+Refer to the site for more details.
 
 ## Installation
 1) Run `npm install` to install all dependencies.  
