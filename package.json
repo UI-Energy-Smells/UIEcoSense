@@ -1,0 +1,39 @@
+{
+  "name": "smells_core",
+  "version": "1.0.0",
+  "description": "Core modules for code and non code analysis",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UI-Energy-Smells/smells_core.git"
+  },
+  "author": "Team 9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UI-Energy-Smells/smells_core/issues"
+  },
+  "homepage": "https://github.com/UI-Energy-Smells/smells_core#readme",
+  "type": "module",
+  "dependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/parser": "^7.21.2",
+    "@babel/plugin-transform-react-jsx": "^7.21.0",
+    "@babel/standalone": "^7.21.2",
+    "@babel/traverse": "^7.21.2",
+    "directory-tree": "^3.5.1",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.23",
+    "prettier": "^2.8.4",
+    "prettier-eslint-cli": "^7.1.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/generator": "^7.21.4"
+  }
+}

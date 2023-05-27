@@ -1,0 +1,33 @@
+# UIEcoSense Analysis Report
+
+## Introduction
+The purpose of this report is to present the results of a code analysis performed on the given directory. The analysis was conducted in order to identify smells in the code and to generate a report that provides useful information for improving the quality of the code.
+
+
+## Code Analysis
+Here are the list of smells that were considered:
+
+- **Inline Style**
+  > Use CSS to control layout, and styling instead of using JavaScript
+
+- **Lazy Loading**
+  > Reduce the energy needed to load non-critical content that is not immediately necessary
+
+- **Anonymous Event Handler**
+  > Use named functions instead of anonymous functions for event handlers
+  > Anonymous functions are not reusable and can cause performance issues
+
+- **Load Script Async**
+  > Load scripts asynchronously to prevent blocking the page load
+
+- **Client Side Logging**
+  > Avoid using console.log() and other client side logging methods in production code
+
+- **UnOptimized Images**
+  > Optimize and compress images and graphics to reduce file size, lower data transfer and improve load time
+
+
+- **UnSafe Fonts**
+  > Use web-safe font formats such as WOFF2 and WOFF for faster load time and less data usage
+
+<p style="color: grey; font-size: 12px;">DISCLAIMER: The analysis is not 100% accurate. The context in which the code is present can effect it's status as smell.</p>

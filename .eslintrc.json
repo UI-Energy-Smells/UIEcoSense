@@ -1,0 +1,16 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "sourceType": "module"
+  },
+  "env": {
+    "es6": true
+  },
+  "plugins": ["prettier"],
+  "extends": ["prettier"],
+  "rules": {
+    "keyword-spacing":2,
+    "prettier/prettier": "error"
+  }
+}

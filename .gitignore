@@ -1,0 +1,14 @@
+# ignore node_modules
+node_modules
+
+# ignore .env
+.env
+
+# ignore /test_json
+# src/test_json
+
+# ignore /report/docs/report/test_json
+# src/report/docs/report/test_json
+# src/report/docs/report/Analysis Report.md
+# src/report/docs/report/Category Graph.md
+# src/report/docs/report/Download Links.md
