@@ -35,4 +35,4 @@ Set-Location "./report"
 Write-Host "Report location: $PSScriptRoot"
 
 # Run mkdocs serve
-mkdocs serve
+python -m mkdocs serve
